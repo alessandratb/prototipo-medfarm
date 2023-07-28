@@ -7,7 +7,7 @@
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     background-color: #2349a9; 
 }
 
@@ -16,7 +16,7 @@ menu {
 }
 
 span#burguer {
-    padding: 10px;
+    padding: 10px 2%;
     color: white;
     font-size: 30px
 }
@@ -36,7 +36,7 @@ ul li.item a {
     color: white;
     text-decoration: none;
     font-size: 19px;
-    padding: 15px 2%;
+    padding: 15px 3%;
     line-height: 25px;
 }
 

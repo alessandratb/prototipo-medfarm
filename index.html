@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <a href="#"><span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span></a>
         <menu id="item" id="clicar">
             <ul>
                 <li class="item">
@@ -81,10 +81,6 @@
         </section>
     </main> -->
     <script>
-        function click() {
-            document.querySelector('clicar').innerHTML++
-        }
-
         function clickMenu() {
             if (item.style.display == 'block') {
                 item.style.display = 'none'
