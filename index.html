@@ -8,45 +8,46 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
 </head>
 <body>
-    <nav>
-        <span id="burguer" id="expandir" class="material-symbols-outlined">menu</span>
+    <header>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="item" id="clicar">
             <ul>
-                <li class="itens">
+                <li class="item">
                     <a href="#">
                         <span class="material-symbols-outlined">account_circle</span>
                         <span class="texto">Perfil</span>
                     </a>
                 </li>
 
-                <li class="itens">
+                <li class="item">
                     <a href="#">
                         <span class="material-symbols-outlined">pets</span>
                         <span class="texto">Meus animais</span>
                     </a>
                 </li>
 
-                <li class="itens">
+                <li class="item">
                     <a href="#">
                         <span class="material-symbols-outlined">location_on</span>
                         <span class="texto">Veterinários</span>
                     </a>
                 </li>
 
-                <li class="itens">
+                <li class="item">
                     <a href="#">
                         <span class="material-symbols-outlined">description</span>
                         <span class="texto">Termos de uso</span>
                     </a>
                 </li>
 
-                <li class="itens">
+                <li class="item">
                     <a href="#">
                         <span class="material-symbols-outlined">verified_user</span>
                         <span class="texto">Política de privacidade</span>
                     </a>
                 </li>
 
-                <li class="itens">
+                <li class="item">
                     <a href="#">
                         <span class="material-symbols-outlined">logout</span>
                         <span class="texto">Sair</span>
@@ -54,7 +55,8 @@
                 </li>
             </ul>
         </menu>
-    </nav>
+    </header>
+
     <!-- <header>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <menu id="itens">
@@ -78,6 +80,18 @@
             </article>
         </section>
     </main> -->
-    <script src="script.js"></script>
+    <script>
+        function click() {
+            document.querySelector('clicar').innerHTML++
+        }
+
+        function clickMenu() {
+            if (item.style.display == 'block') {
+                item.style.display = 'none'
+            } else {
+                item.style.display = 'block'
+            }      
+        }
+    </script>
 </body>
 </html>

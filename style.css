@@ -6,28 +6,22 @@
     box-sizing: border-box;
 }
 
-nav {
-    width: 300px;
-    height: 100vh;
-    background-color: #2349a9;
-    padding: 20px 0 20px .1%;
-    font-family: Arial, Helvetica, sans-serif;
-
-    position: fixed;
-    top: 0;
-    left: 0;
+header {
+    width: 100%;
+    background-color: #2349a9; 
 }
 
-#burguer {
-    width: 100%;
-    padding-left: 10px;
+menu {
+    display: none;
+}
+
+span#burguer {
+    padding: 10px;
     color: white;
-    cursor: pointer;
     font-size: 30px
 }
 
 ul {
-    height: 100%;
     list-style-type: none;
 }
 
@@ -36,16 +30,13 @@ li:hover {
     transition: .5s;
 }
 
-ul li.ativo {
-    background-color: #496cbe;
-}
-
-ul li.itens a {
+ul li.item a {
+    display: flex;
+    justify-content: flex-start;
     color: white;
     text-decoration: none;
     font-size: 19px;
-    padding: 20px 4%;
-    display: flex;
+    padding: 15px 2%;
     line-height: 25px;
 }
 
