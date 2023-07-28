@@ -46,8 +46,9 @@ span.texto {
 }
 
 main {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #8ba4df;
     width: 100vw;
     height: 100vh;
@@ -55,9 +56,6 @@ main {
 }
 
 section {
-    display: block;
-    position: relative;
-    margin: auto;
     width: 350px;
     background-color: white;
     color: white;
