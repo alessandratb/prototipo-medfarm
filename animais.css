@@ -30,19 +30,17 @@ header div.voltar a {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
     padding: 20px 30px 30px 30px;
     background-color: #8ba4df;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 section {
     display: block;
+    margin: auto;
     width: 400px;
-    height: 600px;
+    height: 650px;
 
     background-color: white;
     border-radius: 15px;
@@ -103,6 +101,10 @@ div.sexo label {
     margin-bottom: 5px;
 }
 
+div.sexo input {
+    margin-left: 5%;
+}
+
 div.vacina p {
     color: #E79429;
     padding-left: 3%;
@@ -116,5 +118,6 @@ div.vacina label {
 }
 
 div.vacina input {
+    margin-left: 5%;
     margin-bottom: 2%;
 }
