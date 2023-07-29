@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+    background-color: #8ba4df;
+    padding: 10px;
+}
+
+header div {
+    display: block;
+    background-color: #2349a9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.200);
+}
+
+header div.voltar a {
+    display: block;
+    margin: auto;
+    padding-left: 12px;
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+    background-color: #8ba4df;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    display: block;
+    width: 400px;
+
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.192);
+}
+
+section h1 {
+    text-align: center;
+    color: #E79429;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+div.local {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 30px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 40px; 
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.562);    
+}
+
+div.local p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2349a9;
+}
+
+div.clinica {
+    cursor: pointer;
+    display: block;
+    background-color: #2349a9;
+    padding: 10px;
+    margin: 10px 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.192);
+}
+
+div.clinica h3, p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 0;
+}
