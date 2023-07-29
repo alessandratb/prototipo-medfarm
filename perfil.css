@@ -8,7 +8,7 @@
 
 header {
     display: block;
-    background-color: rgb(41, 41, 41);
+    background-color: #8ba4df;
     padding: 10px;
 }
 
@@ -34,7 +34,7 @@ main {
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    background-color: rgb(41, 41, 41);
+    background-color: #8ba4df;
     width: 100vw;
     height: 100vh;
 }
