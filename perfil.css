@@ -41,9 +41,7 @@ main {
 
 section {
     display: block;
-    overflow: hidden;
     width: 400px;
-    height: 500px;
 
     background-color: white;
     border-radius: 15px;
@@ -83,7 +81,7 @@ div.campo input {
     height: 25px;
     border-radius: 5px;
     border: none;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 div.campo {
