@@ -35,7 +35,7 @@ main {
     align-items: flex-start;
     padding: 70px 30px 30px 30px;
     background-color: #8ba4df;
-    width: 100%;
+    width: 100vw;
     height: 100%;
 }
 
